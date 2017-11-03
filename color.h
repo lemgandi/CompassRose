@@ -17,11 +17,13 @@ static color Colors[] =
   {"Green",255,255,0},
   {"Blue",255,0,255},
   {"Yellow",0,255,0},
-  {"White",0,0,0},
-  {"Cyan",0,0,255},
-  {"Magenta",255,0,0}
+  {"White",0,0,0}
+//  {"Cyan",0,0,255},
+//  {"Magenta",255,0,0}
 };
+
 // static color * ColorP = Colors;
-static int Color_size = sizeof(Colors) / sizeof(struct color);
+static int ColorSize = sizeof(Colors) / sizeof(struct color);
+
 #endif
 
